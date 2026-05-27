@@ -41,7 +41,7 @@ The algorithm runs in four stages, each implemented as its own function:
 4. **Seam removal** — Delete the seam by slicing and concatenating around it, 
    then recompute the energy map and repeat until the target size is reached.
 
-   ## Functions
+## Functions
 
 - **`energy_img`** — Baseline energy via `np.gradient` (combined x/y gradient 
   magnitude on the grayscale image).
